@@ -1,0 +1,88 @@
+.grande-amigo-container {
+  max-width: 2100px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.instructions {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.selection-section {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.selected-person {
+  color: #2c3e50;
+  margin: 20px 0;
+  font-size: 1.3rem;
+}
+
+.selected-person span {
+  color: #2196F3;
+  font-weight: bold;
+}
+
+.attributes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.attribute-option {
+  padding: 15px;
+  background-color: #6a98c7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.attribute-option:hover {
+  background-color: #5797d6 !important;
+  transform: translateY(-2px);
+}
+
+.attribute-option.selected {
+  background-color: #1e77eb;
+  color: white;
+  box-shadow: 0 4px 8px rgba(48, 173, 204, 0.3);
+}
+
+.confirm-button {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto 0;
+  padding: 15px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.confirm-button:hover:not(:disabled) {
+  background-color: #0b7dda;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+}
+
+.confirm-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
