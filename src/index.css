@@ -2,4 +2,9 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
+ 
+}
+
+body{
+   background-image:linear-gradient(to right, rgba(100, 204, 155, 0.219), rgb(194, 214, 214), rgba(107, 175, 169, 0.192),rgba(53, 199, 179, 0.26), rgba(121, 74, 197, 0.24))
 }
