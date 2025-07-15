@@ -47,6 +47,7 @@ const Home = () => {
     { id: 36, name: "Marineide (Efetive)", photo: "/fotos/mary.png" },
     { id: 37, name: "Tiago Salles", photo: "/fotos/tiagoS.png" },
     { id: 38, name: "Adalmo", photo: "/fotos/adalmo.png" },
+    { id: 39, name: "Flávio", photo: "/fotos/fagundes.png" },
     // Adicione mais pessoas conforme necessário
   ];
 

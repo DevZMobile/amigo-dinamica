@@ -43,6 +43,7 @@ const attributes = [
   "Sábio",
   "Alto Astral",
   "Paciente",
+  "Admirável",
 ];
 
 export default function Escolha() {
